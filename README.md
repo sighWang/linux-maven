@@ -6,13 +6,13 @@
 #### 配置JDK
 - 检查JDK和JAVA_HOME
 ```echo $JAVA_HOME,java -version```。
-  - 若没有正确显示出JDK安装地址和JDK版本，进行设置。
+  - 若没有正确显示出JDK安装地址和JDK版本，进行配置。
   - 若正确显示，进行Maven相关设置。
-- 配置 JDK 和 JAVA_HOME
+- 配置 JAVA_HOME 和 JAVA_HOME
  - 安装JDK
- - 设置JAVA_HOME
+ - 配置JAVA_HOME
 ``` export JAVA_HOME=/usr/lib/jvm/java-8-oracle```。
- - 再次运行echo $JAVA_HOME检查。
+ - 再次运行echo `$JAVA_HOME`检查。
 
 #### 配置Maven
 - 解压 `tar -xvzf apache-maven-zip-name`
